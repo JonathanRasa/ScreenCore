@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\VGA\ub_lib -I..\..\..\..\..\VGA\cmsis_lib -I..\..\..\..\.. -I..\..\..\..\..\VGA\cmsis_lib\include -I..\..\..\..\..\VGA\cmsis_boot -I..\..\..\..\..\VGA\cmsis -I..\..\..\..\..\VGA -I..\..\..\..\..\VGA\VgaScreenCore">
+      <target file="syscalls.o" lastModified="15c443fc283">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15bf442affc"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15c443fc1d7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15bae62ad34"/>
+      </target>
+      <target file="stm32_ub_vga_screen.o" lastModified="15c443fc34e">
+         <source file="..\..\..\ub_lib\stm32_ub_vga_screen.c" lastModified="15bae62ad54"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="15c443fc2f1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="15bae62ad25"/>
+      </target>
+      <target file="test.o" lastModified="15c443fc16a">
+         <source file="..\..\..\VgaScreenCore\test.c" lastModified="15c44271b3e"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15c443fc458">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15bae62ad44"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c443fc235">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15bae62acc7"/>
+      </target>
+      <target file="printf.o" lastModified="15c443fc0ed">
+         <source file="..\..\..\stdio\printf.c" lastModified="15bf44299ec"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c443fbf57">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15bae62ace6"/>
+      </target>
+      <target file="main.o" lastModified="15c443fbfc4">
+         <source file="..\..\..\main.c" lastModified="15c1b894e25"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15c443fc060">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15bae62ad44"/>
+      </target>
+      <target file="misc.o" lastModified="15c443fc3ac">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15bae62ad25"/>
+      </target>
+   </processor>
+</history>
