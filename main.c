@@ -18,7 +18,7 @@
 #define y1  0
 #define x2  250
 #define y2  640
-#define color  10
+#define color  0
 #define sgn(x) ((x<0)?-1:((x>0)?1:0)) /* macro to return the sign of a                                       number */
 
 int main(void)
@@ -37,7 +37,9 @@ int main(void)
   while(1)
   {
 	  //line_fast(x1,y1,x2,y2,color);
-	  UB_VGA_SetPixel(160,120,100);
+	  UB_VGA_SetPixel(60,121,VGA_COL_WHITE);
+
+	  if(UB_VGA_ReadPixel(60,121) == VGA_COL_WHITE) UB_VGA_SetPixel(120,120,VGA_COL_WHITE);
   }
 }
 
