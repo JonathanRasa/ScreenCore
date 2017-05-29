@@ -104,6 +104,7 @@ uint8_t UB_VGA_ReadPixel(uint16_t xp, uint16_t yp)
   return VGA_RAM1[(yp*(VGA_DISPLAY_X+1))+xp];
 }
 
+
 //--------------------------------------------------------------
 // interne Funktionen
 // init aller IO-Pins
