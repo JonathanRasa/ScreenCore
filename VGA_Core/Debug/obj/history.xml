@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\cmsis -IC:\Users\ernst\Desktop\vga_screen -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\clear_screen -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4 -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\fonts -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\cmsis_lib\include -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\cmsis_boot -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\cmsis_lib -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\uart -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\ub_lib -IC:\Users\ernst\Desktop\vga_screen\VGA_core_M4\driehoek -IC:\Users\ernst\Desktop">
+      <target file="calibri_bold_16.o" lastModified="15c62f5db12">
+         <source file="..\..\..\fonts\calibri_bold_16.c" lastModified="15c5b3234e0"/>
+      </target>
+      <target file="write.o" lastModified="15c62f5ce6b">
+         <source file="..\..\..\write.c" lastModified="15c62e22c06"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15c62f5db6e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15bf68db5f0"/>
+      </target>
+      <target file="arial_bold_16.o" lastModified="15c62f5de82">
+         <source file="..\..\..\fonts\arial_bold_16.c" lastModified="15c5b1fe560"/>
+      </target>
+      <target file="arial_bold_8.o" lastModified="15c62f5ce1f">
+         <source file="..\..\..\fonts\arial_bold_8.c" lastModified="15c5b22a480"/>
+      </target>
+      <target file="stm32_ub_vga_screen.o" lastModified="15c62f5dd4b">
+         <source file="..\..\..\ub_lib\stm32_ub_vga_screen.c" lastModified="15c54c75a90"/>
+      </target>
+      <target file="images.o" lastModified="15c62f5d182">
+         <source file="..\..\..\images.c" lastModified="15c62a4ce1c"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c62f5d232">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15bf68db5f0"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15c62f5df4f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15bf68dbdc0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c62f5dbb8">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15bf68db5f0"/>
+      </target>
+      <target file="clear_screen.o" lastModified="15c62f5d3a8">
+         <source file="..\..\..\clear_screen\clear_screen.c" lastModified="15c5da08d30"/>
+      </target>
+      <target file="misc.o" lastModified="15c62f5de0a">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15bf68db5f0"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="15c62f5dc1c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="15bf68db5f0"/>
+      </target>
+      <target file="calibri_narrow_16.o" lastModified="15c62f5de44">
+         <source file="..\..\..\fonts\calibri_narrow_16.c" lastModified="15c5b3234e0"/>
+      </target>
+      <target file="draw_shapes.o" lastModified="15c62f5cee1">
+         <source file="..\..\..\draw_shapes.c" lastModified="15c6104cfe6"/>
+      </target>
+      <target file="arial_narrow_16.o" lastModified="15c62f5dd8a">
+         <source file="..\..\..\fonts\arial_narrow_16.c" lastModified="15c5b0be830"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15c62f5d34a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15bf68db5f0"/>
+      </target>
+      <target file="arial_cursive_8.o" lastModified="15c62f5dc4e">
+         <source file="..\..\..\arial_cursive_8.c" lastModified="15c60e8f130"/>
+      </target>
+      <target file="uart.o" lastModified="15c62f5d1f0">
+         <source file="..\..\..\uart\uart.c" lastModified="15c5db93484"/>
+      </target>
+      <target file="delay.o" lastModified="15c62f5cdeb">
+         <source file="..\..\..\delay.c" lastModified="1488d24b450"/>
+      </target>
+      <target file="triangle.o" lastModified="15c62f5dc95">
+         <source file="..\..\..\driehoek\triangle.c" lastModified="15c62e561c0"/>
+      </target>
+      <target file="calibri_bold_8.o" lastModified="15c62f5d27d">
+         <source file="..\..\..\fonts\calibri_bold_8.c" lastModified="15c5b3578d0"/>
+      </target>
+      <target file="arial_narrow_8.o" lastModified="15c62f5ddbf">
+         <source file="..\..\..\fonts\arial_narrow_8.c" lastModified="15c5b238ee0"/>
+      </target>
+      <target file="calibri_narrow_8.o" lastModified="15c62f5dad5">
+         <source file="..\..\..\fonts\calibri_narrow_8.c" lastModified="15c5b3234e0"/>
+      </target>
+      <target file="bitmap.o" lastModified="15c62f5dce8">
+         <source file="..\..\..\bitmap.c" lastModified="15c610f8678"/>
+      </target>
+      <target file="api.o" lastModified="15c62f5da9e">
+         <source file="..\..\..\api.c" lastModified="15c62e1c382"/>
+      </target>
+      <target file="main.o" lastModified="15c62f5d2da">
+         <source file="..\..\..\main.c" lastModified="15c62f41cb9"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15c62f5cf53">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15c5a869360"/>
+      </target>
+   </processor>
+</history>
